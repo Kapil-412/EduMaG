@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduMaG - An E-Learning Initiative</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- ---------- Header ---------- -->
+    <section class="header">
+        <nav>
+            <a href="index.html" class="logo-name"><img src="" alt="">EduMaG</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="" class="sign-in">SIGN IN</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>An E-Learning Initiative</h1>
+            <p>An Online initiative to learn and be progressive in your lives and <br> to empowered your skills to the
+                fullest.</p>
+            <a href="" class="visit-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!-- ---------- Courses ---------- -->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, at blanditiis aliquam vero saepe corporis
+            nesciunt nobis recusandae deserunt veritatis quae molestiae fugit facilis delectus perspiciatis suscipit
+            dolores amet culpa!</p>
+        <div class="course-row">
+            <div class="course-row-col">
+                <h3>Computer Science</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam libero labore veniam magni, placeat
+                    dolore tempora illum illo sint cupiditate fugiat laudantium inventore repellendus unde. Iusto
+                    molestias numquam magnam aut.</p>
+            </div>
+            <div class="course-row-col">
+                <h3>Information Technology</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam libero labore veniam magni, placeat
+                    dolore tempora illum illo sint cupiditate fugiat laudantium inventore repellendus unde. Iusto
+                    molestias numquam magnam aut.</p>
+            </div>
+            <div class="course-row-col">
+                <h3>Mathematics</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam libero labore veniam magni, placeat
+                    dolore tempora illum illo sint cupiditate fugiat laudantium inventore repellendus unde. Iusto
+                    molestias numquam magnam aut.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------- JavaScript for Toggle Menu ---------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
