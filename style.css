@@ -10,7 +10,7 @@
 .header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(8, 23, 82, 0.7), rgba(8, 23, 82, 0.7)), url(../img/pang-yuhao-_kd5cxwZOK4-unsplash.jpg);
+    background-image: linear-gradient(rgba(8, 23, 82, 0.7), rgba(8, 23, 82, 0.7)), url(pang-yuhao-_kd5cxwZOK4-unsplash.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
