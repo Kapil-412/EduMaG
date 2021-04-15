@@ -64,7 +64,7 @@ nav img {
     width: 100%;
 }
 
-.nav-links ul li .sign-in {
+.nav-links ul li .log-in {
     text-decoration: none;
     display: inline-block;
     border: 1px solid #fff;
@@ -72,7 +72,7 @@ nav img {
     background: transparent;
 }
 
-.nav-links ul li .sign-in:hover {
+.nav-links ul li .log-in:hover {
     border: 1px solid #f44336;
     background: #f44336;
 }
