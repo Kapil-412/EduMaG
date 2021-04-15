@@ -39,7 +39,7 @@
     height: 100%;
     background-position: center;
     background-size: cover;
-    background-image: linear-gradient(rgba(127, 206, 230, 0.8), rgba(127, 206, 230, 0.8)), url(../img/login_register_image.jpg);
+    background-image: linear-gradient(rgba(127, 206, 230, 0.8), rgba(127, 206, 230, 0.8)), url(login_register_image.jpg);
     padding: 55px;
     box-sizing: border-box;
     backface-visibility: hidden;
